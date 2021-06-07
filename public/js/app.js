@@ -64369,7 +64369,7 @@ var app = new Vue({
   el: '#app',
   data: {
     menu: 0,
-    ruta: 'http://localhost:80/2crudlaravelvue/public' //ruta: 'http://localhost:80/proyecto/sistemaventas/sistema/public'
+    ruta: 'http://localhost:80/arch/sistemaventa/public' //ruta: 'http://localhost:80/proyecto/sistemaventas/sistema/public'
     //ruta: 'http://sistemaventa.mayahonh.com/public_html'
 
   }
