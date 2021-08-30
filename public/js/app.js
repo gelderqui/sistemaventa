@@ -64356,8 +64356,8 @@ Vue.component('dashboard', _components_Dashboard_vue__WEBPACK_IMPORTED_MODULE_8_
 
 Vue.component('consultaingreso', _components_Consultaingreso_vue__WEBPACK_IMPORTED_MODULE_9__.default);
 
-Vue.component('consultaventa', _components_Consultaventa_vue__WEBPACK_IMPORTED_MODULE_10__.default); //Tambien se puede llamar de la otra forma mejor rendimiento
-//Vue.component("articulo", () => import("./components/Articulo.vue"));
+Vue.component('consultaventa', _components_Consultaventa_vue__WEBPACK_IMPORTED_MODULE_10__.default); // Tambien se puede llamar de la otra forma mejor rendimiento
+// Vue.component("articulo", () => import("./components/Articulo.vue"));
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -64369,8 +64369,8 @@ var app = new Vue({
   el: '#app',
   data: {
     menu: 0,
-    ruta: 'http://localhost:80/arch/sistemaventa/public' //ruta: 'http://localhost:80/proyecto/sistemaventas/sistema/public'
-    //ruta: 'http://sistemaventa.mayahonh.com/public_html'
+    ruta: 'http://localhost:80/arch/sistema/public' //ruta: 'http://localhost:80/proyecto/sistemaventas/sistema/public'
+    //ruta: 'http://sistema.mayahonh.com/public'
 
   }
 });

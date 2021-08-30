@@ -48,8 +48,8 @@ Vue.component('consultaingreso', ConsultaingresoComponent);
 import ConsultaventaComponent from './components/Consultaventa.vue';
 Vue.component('consultaventa', ConsultaventaComponent);
 
-//Tambien se puede llamar de la otra forma mejor rendimiento
-//Vue.component("articulo", () => import("./components/Articulo.vue"));
+// Tambien se puede llamar de la otra forma mejor rendimiento
+// Vue.component("articulo", () => import("./components/Articulo.vue"));
 
 
 /**
@@ -62,8 +62,8 @@ const app = new Vue({
     el: '#app',
     data :{
         menu : 0,
-        //ruta: 'http://localhost:80/arch/sistemaventa/public'
+        ruta: 'http://localhost:80/arch/sistema/public'
         //ruta: 'http://localhost:80/proyecto/sistemaventas/sistema/public'
-        ruta: 'http://sistema.mayahonh.com/public'
+        //ruta: 'http://sistema.mayahonh.com/public'
     }
 });
