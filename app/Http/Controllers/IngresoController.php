@@ -6,13 +6,22 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 use App\Models\Ingreso;
+use App\Models\Venta;
 use App\Models\DetalleIngreso;
 
 class IngresoController extends Controller
 {
     public function index(Request $request)
     {
-        if (!$request->ajax()) return redirect('/');
+        // $ingresos = Ingreso::join('personas','ingresos.idproveedor','=','personas.id')
+        //     ->join('users','ingresos.idusuario','=','users.id')
+        //      ->select('ingresos.id','ingresos.tipo_comprobante','ingresos.serie_comprobante',
+        //      'ingresos.num_comprobante','ingresos.fecha_hora','ingresos.impuesto','ingresos.total',
+        //      'ingresos.estado','personas.nombre','users.usuario')
+        //     ->orderBy('ingresos.id', 'desc')->paginate(10);
+
+        // return ['ingresos =' => $ingresos ];
+       if (!$request->ajax()) return redirect('/');
 
         $buscar = $request->buscar;
         $criterio = $request->criterio;
