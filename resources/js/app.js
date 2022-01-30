@@ -62,7 +62,7 @@ const app = new Vue({
     el: '#app',
     data :{
         menu : 0,
-        ruta: 'http://localhost:80/sistemas/sistema/public'
+        ruta: 'http://localhost:80/principal/3sistemaventa/public'
         //ruta: 'http://localhost:80/proyecto/sistemaventas/sistema/public'
         //ruta: 'http://sistema.mayahonh.com/public'
     }
