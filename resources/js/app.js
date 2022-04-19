@@ -64,6 +64,6 @@ const app = new Vue({
         menu : 0,
         ruta: 'http://localhost:80/principal/3sistemaventa/public'
         //ruta: 'http://localhost:80/proyecto/sistemaventas/sistema/public'
-        //ruta: 'http://sistema.mayahonh.com/public'
+        //ruta: 'http://sistema.gelderqui.com/public'
     }
 });

@@ -43600,12 +43600,6 @@ var render = function() {
                   domProps: { value: _vm.buscar },
                   on: {
                     keyup: function($event) {
-                      if (
-                        !$event.type.indexOf("key") &&
-                        _vm._k($event.keyCode, "enter", 13, $event.key, "Enter")
-                      ) {
-                        return null
-                      }
                       return _vm.listarCategoria(1, _vm.buscar, _vm.criterio)
                     },
                     input: function($event) {
@@ -64370,7 +64364,7 @@ var app = new Vue({
   data: {
     menu: 0,
     ruta: 'http://localhost:80/principal/3sistemaventa/public' //ruta: 'http://localhost:80/proyecto/sistemaventas/sistema/public'
-    //ruta: 'http://sistema.mayahonh.com/public'
+    //ruta: 'http://sistema.gelderqui.com/public'
 
   }
 });
